@@ -52,9 +52,9 @@ Make smarter spending decisions and maximize your spending potential
 
 "Guava isnât just a banking platform, itâs a community. And that is what drove me to choose Guava over any other bank when it came to my small, black-owned business. The amount of resources and networking possibilities are endless. I truly feel as though Guava and the other banking members truly care about my business and want to see me succeed."
 
-- Resources
-- Company
-- Card Holder AgreementPrivacy PolicyDisclosures
-- About
 - Terms of Use
+- About
+- Company
+- Resources
+- Card Holder AgreementPrivacy PolicyDisclosures
 

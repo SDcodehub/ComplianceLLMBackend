@@ -16,22 +16,20 @@ You can use OpenAI or any open-source LLMs for this purpose
 ## Quick start
 
 ```bash
-pip install ComplianceLLMBackend
-```
-
-```python
-from ComplianceLLMBackend import ...
-```
-
-## Contributing
-
-```bash
-# clone the repo
+# for linux
 git clone https://github.com/SDcodehub/ComplianceLLMBackend.git
 
-# install the dev dependencies
-make install
+git checkout dev
 
-# run the tests
-make test
+python -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+# to start api end point
+python main.py
+
+# to send requests
+curl -X POST -H "Content-Type: application/json" -d '{"url":"https://www.joinguava.com"}' http://localhost:5000/check-compliance
 ```

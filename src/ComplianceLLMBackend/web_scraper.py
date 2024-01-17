@@ -54,8 +54,4 @@ def extract_compliance_information(url, output_file):
     else:
         print(f"Failed to retrieve content. Status code: {response.status_code}")
 
-      
-# Replace 'your_url_here' with the actual URL you want to extract information from
-url = 'https://www.joinguava.com/'
-extract_compliance_information(url, "./target.txt")
 

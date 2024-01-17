@@ -55,7 +55,6 @@ def create_llm_agent():
         )
 
 
-
 @app.route('/check-compliance', methods=['POST'])
 def check_compliance():
     try:
@@ -74,8 +73,6 @@ def check_compliance():
         compliance_policy = load_files(compliance_policy_path)
         target_web_content = load_files(target_file_path)
 
-        print(f"{app.config['system_message']=}")
-        print(f"{app.config['user_message']=}")
         system_message = app.config['system_message'].format(compliance_policy=compliance_policy)
 
         user_message = app.config['user_message'].format(target_web_content=target_web_content)

@@ -20,7 +20,9 @@ You can use OpenAI or any open-source LLMs for this purpose
 git clone https://github.com/SDcodehub/ComplianceLLMBackend.git
 
 git checkout dev
-
+# rename the sample_env_sample to .env file, this is required to load the api key
+# GPT-4 model is recomended,  current prompts works with gpt4 model
+# python 3.11.2
 python -m venv venv
 
 source venv/bin/activate

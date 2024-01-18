@@ -1,0 +1,7 @@
+{
+    "compliance_url": "https://stripe.com/docs/treasury/marketing-treasury",
+    "data_folder_path": "./data",
+    "compliance_file": "compliance_policy.txt",
+    "target_url": "https://www.joinguava.com/",
+    "target_file": "target.txt"
+}
